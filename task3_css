@@ -1,0 +1,127 @@
+#{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0 auto;
+	font-family:"Hiragino Sans GB W3";
+	font-size: 62.5%;
+	height: 100%;
+}
+.container{
+	margin: 0 auto;
+	max-width: 640px;
+	
+}
+.header{
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	background-color: #22292c;
+	color: #f8f6f5;
+}
+.header_return{
+	width: 15%;
+    position: absolute;
+    float: left;
+    left: 2.5%;
+    top: 30%;
+}
+.header_return img{
+	width: 20%;
+	max-width: 10px;
+}
+.header_return span{
+	width: 80%;
+	position: absolute;
+	display: block;
+    left: 30%;
+    top: 5%;
+    font-weight:500;
+    font-size: 160%;
+}
+.header h1{
+	margin: 0 auto;
+    padding: 4% 0;
+    text-align: center;
+    position: relative;
+    font-size: 200%;
+    font-weight: 500;
+}
+.header_more{
+	width: 8%;
+	right: 5%;
+	top: 33%;
+	position: absolute;
+}
+.header_more img{
+	max-width: 100%;
+}
+
+.content{
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	background-color: #68cdd5;
+  	color: #fff;
+}
+.content_return{
+	padding-left: 5%;
+    padding-top: 4%;
+}
+.content_return img{
+	width: 30%;
+	max-width: 40px;
+}
+.content_logo{
+    text-align: center;
+}
+.content_logo img{
+	max-width: 30%;
+}
+.content p{
+    text-align: left;
+    position: relative;
+    padding: 8% 20%;
+    font-size: 1.6em;
+    font-weight: 500;
+    line-height: 180%;
+}
+.content_ico {
+	width: 100%;
+	margin-top: 10%
+}
+.content_ico_people{
+	display:inline;
+	position: relative;
+	width: 50%;
+	
+	float: left;
+}
+.content_ico_PTT{
+	display:inline;
+	position: relative;
+	width: 50%;
+	
+	float: right;
+}
+.content_ico img {
+	max-width: 25%;
+	padding-top: 33%;
+	padding-left: 35%;
+}
+.content_ico p{
+	margin:0 auto;
+	padding-top: 1%;
+	padding-left: 15%;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.block{
+	clear: both;
+	padding-bottom: 50%;
+}
+
+
